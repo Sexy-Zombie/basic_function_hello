@@ -1,4 +1,7 @@
-x = input("Please, write your name:")
+def hello(name):
+    
+    print("Hello" , name)
 
-print("Hello" , x)
+hello("Gábor")
+
 
