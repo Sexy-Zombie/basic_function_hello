@@ -1,10 +1,9 @@
-def hello(send_name,recieve_name):
-    print(send_name," hello to ",recieve_name)
+def hello(*name):
+    for i in range(len(name)):
+        print("Hello", name[i])
 
 
-x = input("Ki fog üdvözölni, írd le:")
-y = input("Kit fog üdvözölni, írd le:")
-hello(x,y)
+hello("Józsi","Laci", "Gyuluska", "Ferkó", "Batman")
 
 
 
